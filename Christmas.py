@@ -5,7 +5,7 @@ import random #randomise character colours
 from termcolor import colored #how we are going to colour the text
 
 pygame.mixer.init() #initialises the mixer, prep for audio
-pygame.mixer.music.load("Christmas Tree Animation/Wham! - Last Christmas (Official Video) 4.mp3") #loads the music, ready to play
+pygame.mixer.music.load("Wham! - Last Christmas (Official Video) 4.mp3") #loads the music, ready to play
 pygame.mixer.music.play() #plays the music, will continue to play as long as code is still running
 
 colours = [
@@ -85,4 +85,5 @@ while True:
     os.system("cls") #clears the terminal so we dont have multiple trees playing continuously
     
     if elapsedtime >= duration:
+
         break
